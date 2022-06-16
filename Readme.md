@@ -1,7 +1,11 @@
 ## Commands
 
-Pack source
+Pack source (Play.Catalog.Contracts Play.Common)
 dotnet pack -o ../../../packages
+
+
+Pack a new version of the common library
+dotnet pack -p:PackageVersion=1.0.1 -o ..\..\..\packages\
 
 Add local source
 dotnet nuget add source C:\Users\Gonzalo\projects\net-microservices\packages -n PlayEconomy
