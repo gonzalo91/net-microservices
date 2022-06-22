@@ -1,3 +1,7 @@
+# Description
+This Project was created following the course: https://www.youtube.com/watch?v=CqCDOosvZIk, which gave me a basic understanding of how microservices work. We used MongoDb as the main data storage for both microservices. We also used Rabbit MQ for broker messaging among services.
+The architecture can be deployed using docker-compose, but each microservice have to be runned individually.
+
 ## Commands
 
 Pack source (Play.Catalog.Contracts Play.Common)
